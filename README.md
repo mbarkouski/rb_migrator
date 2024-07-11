@@ -11,5 +11,5 @@ Set environment variable to binary file
 ## Build
 cargo build --release
 
-##Migrations in sql file
+## Migrations in sql file
 If you perform several operations, separate them with the ```#``` sign (see example in migrations/1.sql).
