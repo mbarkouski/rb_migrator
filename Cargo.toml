@@ -1,0 +1,18 @@
+[package]
+name = "rb_migrator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.8", features = ["derive"] }
+confique={version="0.2.5",features=["yaml"]}
+env_logger = "0.11.3"
+log = "0.4.22"
+serde = {version="1.0.203",features=["derive"]}
+tokio = { version = "1", features = ["macros","rt"] }
+clickhouse-rs={path="./clickhouse-rs",features=["tls"]}
+url = "2.5.2"
+
+
+[profile.release]
+opt-level = "z" 

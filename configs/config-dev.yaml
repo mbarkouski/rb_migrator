@@ -1,0 +1,6 @@
+host: "localhost"
+port: 9000
+db: "migrator_test"    
+user_name: "default"
+password: ""
+cert_path: 
